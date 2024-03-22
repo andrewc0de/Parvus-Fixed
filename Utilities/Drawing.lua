@@ -188,9 +188,11 @@ local function RelativeToCenter(Size)
 end
 
 function HighlightNew(Target,Parent)
+	--[[
     local Highlight = Instance.new("Highlight")
     Highlight.Adornee = Target
     Highlight.Parent = Parent
+	--]] 
 end
 function GetCharacter(Target,Mode)
     if Mode == "Player" then
